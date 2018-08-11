@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    --dark: #2c2a2a;
+    --dark-p: #494747;
+    --light: #c5c5c5;
+    --light-p: #888787;
+}
+
+
+/* Left Section Starts Here */
+.left-side {
+    background:var(--dark);
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.profile-card {
+    padding: 15%;
+}
+
+.profile-card h5 {
+    color: var(--light);
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.profile-card p {
+    color: var(--light-p);
+    font-size: 12px;
+    text-align: justify
+}
+.profile-card h5 i {
+    font-size: 15px !important;
+    padding: 10px;
+}
+.profile-card hr {
+    border-top: 1px solid var(--light-p)
+}
+/* Left Section Ends Here */
+
+
+
+/* Right Section Starts here */
+.right-card {
+    margin: 50px;
+    /* border:1px solid var(--light); */
+    box-shadow: 2px 2px 7px var(--light);
+    padding: 50px 15%;
+}
+
+.right-profile {
+    text-align: center;
+}
+
+.right-profile h5 {
+    color: var(--dark);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.right-profile p {
+    color: var(--dark-p);
+    font-size: 12px
+}
+/* Right Section Ends here */
